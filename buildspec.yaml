@@ -3,7 +3,7 @@ version: 0.2
     
 env:
    variables:
-     PROJECT: HotelPoints.API
+     PROJECT: HotelPoints
      DOTNET_CORE_RUNTIME: 5.0
 
 phases:   
