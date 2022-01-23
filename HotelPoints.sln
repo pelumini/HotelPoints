@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelPoints.API", "HotelPoints.API\HotelPoints.API.csproj", "{EC069366-DFAB-4131-959F-B9362685E399}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelPoints.API", "HotelPoints.API\HotelPoints.API.csproj", "{EC069366-DFAB-4131-959F-B9362685E399}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelPoints.Tests", "HotelPoints.Tests\HotelPoints.Tests.csproj", "{B5D9AC94-CF5B-4106-90F2-D43BC8B3E5D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelPoints.Tests", "HotelPoints.Tests\HotelPoints.Tests.csproj", "{B5D9AC94-CF5B-4106-90F2-D43BC8B3E5D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1BE7C02F-B675-4D56-9B0F-AD70749D7599}"
+	ProjectSection(SolutionItems) = preProject
+		buildspec.yaml = buildspec.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
