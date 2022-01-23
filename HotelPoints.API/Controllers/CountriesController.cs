@@ -62,7 +62,6 @@ namespace HotelPoints.API.Controllers
                 return BadRequest(ModelState);
             }
 
-
             var country = _mapper.Map<Country>(countryDTO);
             await _unitOfWork.Countries.Insert(country);
             await _unitOfWork.Save();

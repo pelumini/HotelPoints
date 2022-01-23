@@ -52,9 +52,7 @@ namespace HotelPoints.API.Repositories
             IQueryable<T> query = _db;
             if (expression != null)
             {
-
                 query = query.Where(expression);
-
             }
 
             if (includes != null)
@@ -69,7 +67,6 @@ namespace HotelPoints.API.Repositories
             {
                 query = orderBy(query);
             }
-
 
             return await query.AsNoTracking().ToListAsync();
         }
