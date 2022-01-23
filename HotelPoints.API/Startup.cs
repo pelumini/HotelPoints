@@ -77,7 +77,10 @@ namespace HotelPoints.API
             app.UseSwaggerUI(c => 
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "HotelPoints.API v1");
-                c.RoutePrefix = string.Empty;
+                if (env.IsProduction())
+                {
+                    c.RoutePrefix = string.Empty;
+                }
             });
 
 
