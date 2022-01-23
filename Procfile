@@ -1,1 +1,1 @@
-web: dotnet exec ./HotelPoints.dll --urls http://0.0.0.0:5000/
+web: dotnet exec ./HotelPoints.API.dll --urls http://0.0.0.0:5000/
